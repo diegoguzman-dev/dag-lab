@@ -1,0 +1,15 @@
+{
+  "name" : "dag-lab",
+  "version" : "0.0.0",
+  "dependencies": {
+    "chalk" : "latest",
+    "connect" : "latest",
+  	"gulp" : "latest",
+    "gulp-autoprefixer" : "latest",
+    "gulp-concat" : "latest",
+  	"gulp-livereload" : "latest",
+    "gulp-uglify" : "latest",
+    "gulp-ruby-sass" : "latest",
+    "serve-static" : "latest"
+  }
+}
