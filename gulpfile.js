@@ -47,8 +47,6 @@ gulp.task('uglify', function () {
 
 gulp.task('uglify-dbug', function () {
 	gulp.src(paths.js)
-		.pipe(uglify({beautify: true}))
-			.on('error', handleError)
 		.pipe(gulp.dest(paths.jsmin));
 });
 
