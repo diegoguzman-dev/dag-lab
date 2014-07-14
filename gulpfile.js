@@ -62,6 +62,3 @@ gulp.task('watch', ['server'], function() {
 });
 
 gulp.task('default', ['server', 'watch']);
-
-
-console.log(paths.html.dist);
