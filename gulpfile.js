@@ -54,7 +54,7 @@ gulp.task('watch', ['server'], function() {
 		fileChangedMsg(file);
 	});
 
-	gulp.watch(paths.html).on('change', livereload.changed);
+	gulp.watch(paths.html + '**/*.html').on('change', livereload.changed);
 
 	gulp.watch(paths.sass, ['sass']).on('change', function(file){
 		fileChangedMsg(file);
