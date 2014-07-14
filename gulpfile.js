@@ -45,6 +45,11 @@ gulp.task('uglify', function () {
 		.pipe(gulp.dest(paths.jsmin));
 });
 
+gulp.task('uglify-dbug', function () {
+	gulp.src(paths.js)
+		.pipe(gulp.dest(paths.jsmin));
+});
+
 gulp.task('watch', ['server'], function() {
   livereload.listen();
 
