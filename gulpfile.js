@@ -61,7 +61,7 @@ gulp.task('watch', ['server'], function() {
 
 	gulp.watch(paths.html + '**/*.html').on('change', livereload.changed);
 
-	gulp.watch(paths.htm, ['uglify']).on('change', function(file){
+	gulp.watch(paths.js, ['uglify']).on('change', function(file){
 		fileChangedMsg(file);
 	});
 
